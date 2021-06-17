@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./resources/fontawesome-free-5.15.3-web 2/css/all.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="./resources/CSS/style.css">
+     <title>CONTACT US</title>
+</head>
+<body>
+     <section class="contact-header">
+          <nav>
+               <a href="index.html"><img src="./resources/images/Demonslayerlogo.png" alt=""></a>
+               <div class="nav-links contact-nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                         <li><a href="./index.html">HOME</a></li>
+                         <li><a href="./about.html" target="_blank">ABOUT</a></li>
+                         <li><a href="#images">IMAGES</a></li>
+                         <li><a href="#academy">ACADEMY</a></li>
+                         <li><a href="./contact.html" target="_blank">CONTACT</a></li>
+                    </ul>
+
+               </div>
+                    <i class="fas fa-bars" onclick="showMenu()"></i>
+          </nav>
+          <h1>CONTACT US</h1>
+
+     </section>
+
+     <!-- FORM -->
+     <h3 class="form-title">Leave Your Comments and <br> Send us your messages</h3>
+     <div class="form">
+          <h3>Leave a comment</h3>
+          <form action="" class="comment-form">
+               <input type="text" placeholder="Enter Name" name="" id="">
+               <input type="email" placeholder="Enter Email" name="" id="">
+               <textarea rows="5" placeholder="Your Comment"></textarea>
+               <button type="submit" class="hero-btn red-hero-btn">Post Comment</button>
+          </form>
+     </div>
+
+     <!-- LOCATION -->
+
+     <section class="location">
+          <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14138.619847890162!2d85.30800097546988!3d27.63520093499836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1774cd647ef9%3A0x61ff38825940bdfc!2sSunakothi%2C%20Lalitpur%2044700!5e0!3m2!1sen!2snp!4v1623773061305!5m2!1sen!2snp"
+               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     </section>
+
+     <section class="contact-info">
+          <div class="row">
+               <div class="info-col">
+                    <div>
+                         <i class="fab fa-home"></i>
+                         <span>
+                              <h5>Simako, Sunakothi,Lalitpur</h5>
+                              <p>Kathmandu,Lalitpur</p>
+                         </span>
+                    </div>
+               
+                    <div>
+                         <i class="fab fa-phone"></i>
+                         <span>
+                              <h5>+977-9860000000</h5>
+                              <p>Monday - Friday, 6am - 3pm</p>
+                         </span>
+                    </div>
+
+                    <div>
+                         <i class="fab fa-envelope"></i>
+                         <span>
+                              <h5>nezukorukesh@gmail.com</h5>
+                              <p>Email us ur query</p>
+                         </span>
+                    </div>
+               </div>
+               <div class="info-col">
+                    <form action="">
+                         <input type="text" name="" placeholder="Enter your name" required>
+                         <input type="email" name="" placeholder="Enter email address" required>
+                         <input type="text" name="" placeholder="Enter your subject" required>
+                         <textarea rows="8"  placeholder="message"></textarea>
+                         <button type="submit" class="hero-btn red-hero-btn">Send message</button>
+                    </form>
+
+
+
+               </div>
+          </div>
+     </section>
+
+
+
+
+
+     <!-- ACTION -->
+     <section class="action">
+          <h1>Nezuko & <br>Demon Slayer Corpse</h1>
+          <a href="" class="hero-btn">CONTACT US</a>
+     </section>
+
+
+
+
+     <!-- FOOTER -->
+
+     <section class="footer">
+          <h4>About US</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, quibusdam soluta maxime quidem voluptates itaque et magni quos veritatis id qui nostrum corporis, neque libero hic autem suscipit consequuntur animi quod! Nisi debitis iste pariatur iusto corporis a, dolorem perferendis sit laborum aliquam culpa soluta nihil numquam distinctio nobis commodi.</p>
+          <div class="icons">
+               <i class="fab fa-facebook"></i>
+               <i class="fab fa-facebook"></i>
+               <i class="fab fa-facebook"></i>
+               <i class="fab fa-facebook"></i>
+               <i class="fab fa-facebook"></i>
+          </div>
+          <p>Made by Asuka-Chan</p>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT for TOGGLE MENU -->
+
+     <script>
+
+          var navLinks = document.getElementById("navLinks");
+
+          function showMenu(){
+               navLinks.style.right="0"
+          }
+          function hideMenu() {
+               navLinks.style.right = "-200px"
+          }
+
+     </script>
+</body>
+</html>

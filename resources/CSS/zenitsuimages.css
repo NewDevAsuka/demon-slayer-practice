@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+.zenitsu {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  padding-top: 90px;
+}
+.zenitsu h1 {
+  font-size: 25px;
+}
+
+.image-container {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.container-img {
+  flex-basis: 30%;
+  margin: 10px;
+  background: rosybrown;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.container-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.container-img:hover {
+  box-shadow: 4px 4px 10px yellow;
+}
